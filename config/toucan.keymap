@@ -21,7 +21,7 @@
         CtrlAltDelete: CtrlAltDelete {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LEFT_ALT &kp DEL>;
+            bindings = <&kp LEFT_CONTROL &kp LEFT_ALT &kp DELETE>;
             label = "CTRLALTDELETE";
         };
     };
